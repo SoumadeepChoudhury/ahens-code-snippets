@@ -10,7 +10,7 @@ This contains some basic Python templates with industry standard codebase
 
 ## Installation
 
-You can install the latest version of the extension via the Visual Studio Marketplace [here](https://marketplace.visualstudio.com)
+You can install the latest version of the extension via the Visual Studio Marketplace [here](https://marketplace.visualstudio.com/items?itemName=AhensAnInitiativeToInitial.ahens-code-snippets)
  > Tip: You can install the extension from Visual Studio Code > Extension section: 
  ```bash 
  Ahens Py Eyeliner
@@ -18,7 +18,7 @@ You can install the latest version of the extension via the Visual Studio Market
 
  <br>
 
- 
+
 ## Source Code
 
 Source code of this extension is found [here](https://github.com/SoumadeepChoudhury/ahens-code-snippets)
