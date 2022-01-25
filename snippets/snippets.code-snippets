@@ -34,5 +34,59 @@
             "if($1):\n\t$2\nelse:\n\t$0"
         ],
         "description": "A If statement used for 'If-else'."
-    }
+    },
+    "def function": {
+        "prefix": [
+            "def"
+        ],
+        "body": [
+            "def ${1:name}($2):\n\t $(0:pass)"
+        ],
+        "description": "def for creating functions"
+    },
+    "Class without constructor": {
+        "prefix": [
+            "class"
+        ],
+        "body": [
+            "class ${1:Classname}:\n\t $(0:pass)"
+        ],
+        "description": "Creating class without defined constructor"
+    },
+    "Class with constructor": {
+        "prefix": [
+            "cla-cons"
+        ],
+        "body": [
+            "class ${1:Classname}:\n\t def __init__(self,$2):\n\t ${0:pass}"
+        ],
+        "description": "Creating class with defined constructor"
+    },
+    "While Loop": {
+        "prefix": [
+            "while"
+        ],
+        "body": [
+            "while ${1:condition}:\n\t ${0:pass}"
+        ],
+        "description": "while loop"
+    },
+    "Try-except": {
+        "prefix": [
+            "tcat"
+        ],
+        "body": [
+            "try:\n\t ${1:pass}\nexcept:\n\t${0:pass}"
+        ],
+        "description": "Try Except block for error handling."
+    },
+    "Lambda Function": {
+        "prefix": [
+            "lamb"
+        ],
+        "body": [
+            "${1:variable} = lambda ${2:variables} : ${0:condition}"
+        ],
+        "description": "Lambda Function"
+    },
 }
