@@ -2,7 +2,7 @@
     "name": "ahens-code-snippets",
     "displayName": "Ahens Py Eyeliner",
     "description": "Newer Snippet for Python language which is easy and efficient to use.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.58.0"
     },
