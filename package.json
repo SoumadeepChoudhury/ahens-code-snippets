@@ -1,6 +1,7 @@
 {
     "name": "ahens-code-snippets",
     "displayName": "Ahens Py Eyeliner",
+    "publisher": "AhensAnInitiativeToInitial",
     "description": "Newer Snippet for Python language which is easy and efficient to use.",
     "version": "1.0.0",
     "engines": {
@@ -9,6 +10,9 @@
     "categories": [
         "Snippets"
     ],
+    "repository": {
+        "url": "https://github.com/SoumadeepChoudhury/ahens-code-snippets"
+    },
     "contributes": {
         "snippets": [
             {
