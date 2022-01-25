@@ -17,6 +17,8 @@ You can install the latest version of the extension via the Visual Studio Market
  ```
 
  <br>
+
+ 
 ## Source Code
 
 Source code of this extension is found [here](https://github.com/SoumadeepChoudhury/ahens-code-snippets)
