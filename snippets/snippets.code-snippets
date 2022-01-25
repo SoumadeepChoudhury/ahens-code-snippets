@@ -40,7 +40,7 @@
             "def"
         ],
         "body": [
-            "def ${1:name}($2):\n\t $(0:pass)"
+            "def ${1:name}($2):\n\t ${0:pass}"
         ],
         "description": "def for creating functions"
     },
@@ -49,7 +49,7 @@
             "class"
         ],
         "body": [
-            "class ${1:Classname}:\n\t $(0:pass)"
+            "class ${1:Classname}:\n\t ${0:pass}"
         ],
         "description": "Creating class without defined constructor"
     },
@@ -58,7 +58,7 @@
             "cla-cons"
         ],
         "body": [
-            "class ${1:Classname}:\n\t def __init__(self,$2):\n\t ${0:pass}"
+            "class ${1:Classname}:\n\t def __init__(self,$2):\n\t\t ${0:pass}"
         ],
         "description": "Creating class with defined constructor"
     },
